@@ -1,0 +1,1299 @@
+/* Acetone Font */
+@font-face {
+    font-family: "Acetone";
+    src: url('./ACETONE.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.section {
+    padding: 130px 0;
+}
+
+.section-pt {
+    padding-top: 130px;
+}
+
+.section-pb {
+    padding-bottom: 130px;
+}
+
+/*=========================================================================================
+    Utility CSS End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    Typography CSS Start
+ ==========================================================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*=========================================================================================
+    Typography CSS End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    Button CSS Start
+ ==========================================================================================*/
+.btn {
+    padding: 12px 24px;
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    -webkit-border-radius: 27.5px;
+    -moz-border-radius: 27.5px;
+    -ms-border-radius: 27.5px;
+    -o-border-radius: 27.5px;
+}
+
+.btnPrimary {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 99px;
+    background: #228B22;
+    border: 1px solid #228B22;
+}
+
+.btnPrimary:hover {
+    color: #228B22;
+    background: transparent;
+    border: 1px solid #228B22;
+}
+
+.btn.btnPrimary:active {
+    color: #228B22;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.btnSecond {
+    color: #228B22;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 99px;
+    border: 1px solid #228B22;
+}
+
+.btnSecond:hover {
+    color: #fff;
+    background: #228B22;
+    border: 1px solid #228B22;
+}
+
+.btn.btnSecond:active {
+    color: #fff;
+    background: #228B22;
+    border: 1px solid #fff;
+}
+
+.btnThree {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Acetone';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 999px;
+    background: #228B22;
+    border: 1px solid #228B22;
+}
+
+.btnThree:hover {
+    color: #228B22;
+    background: #fff;
+    border: 1px solid #228B22;
+}
+
+.btn.btnThree:active {
+    color: #228B22;
+    background: #fff;
+    border: 1px solid #228B22;
+}
+
+/*=========================================================================================
+    Button CSS End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    Global CSS Start
+ ==========================================================================================*/
+.mobile-show {
+    display: none !important;
+}
+
+.mobile-lg-show {
+    display: none;
+}
+
+.column-2 {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    font-size: 22px !important;
+}
+
+/* Global Text CSS */
+.cs-section-title h1 {
+    color: #228B22;
+    text-align: center;
+    font-family: 'Acetone';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cs-section-title h2 {
+    color: #228B22;
+    font-family: 'Acetone';
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.cs-section-title h3 {
+    color: #228B22;
+    font-family: 'Acetone';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cs-section-title h4 {
+    color: #202020;
+    font-family: 'Acetone';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cs-section-title h6 {
+    color: #202020;
+    font-family: 'Acetone';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Scroll To Top */
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    background: #228B22;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99999;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/*=========================================================================================
+    Global CSS End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    Header CSS Start
+ ==========================================================================================*/
+.header {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+    z-index: 999;
+    padding: 0px 30px;
+}
+
+.header-logo {
+    width: 128px;
+    padding: 0;
+    margin: 0;
+}
+
+.header.sticky {
+    width: 100%;
+    position: fixed;
+    background: #00000090;
+    background-blend-mode: normal, hue, normal, normal;
+    z-index: 9999;
+}
+
+.header.sticky .navbar-expand-lg {
+    padding: 24px 0px;
+}
+
+.header .navbar-expand-lg {
+    padding: 24px 0px;
+    background: transparent;
+}
+
+.header .navbar-expand-lg .navbar-nav {
+    gap: 60px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    color: #F8F8F8;
+    text-align: center;
+    font-family: "Acetone";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header .navbar-collapse {
+    flex-grow: inherit;
+}
+
+.navbar-toggler {
+    color: #fff;
+    border: none;
+    display: flex;
+    width: 40px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #228B22;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar-menu-icon .fa-bars,
+.navbar-menu-icon .fa-xmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+/*=========================================================================================
+    Header CSS End
+ ==========================================================================================*/
+
+
+/*=========================================================================================
+    Hero CSS Start
+ ==========================================================================================*/
+.cs-hero-area {
+    position: relative;
+}
+
+.cs-hero-bg {
+    width: 100%;
+    max-height: 1100px;
+}
+
+.cs-hero-content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    max-width: 1046px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cs-hero-content-box h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.50);
+    font-family: "Acetone";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.cs-hero-content-box p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.cs-hero-content-box .btnPrimary {
+    background-color: #fff;
+    color: #228B22;
+}
+
+.cs-hero-content-box .btnPrimary:hover {
+    background-color: #228B22;
+    color: #fff;
+}
+
+/*=========================================================================================
+    Hero CSS End
+ ==========================================================================================*/
+
+/*=========================================================================================
+    About Section CSS Start
+ ==========================================================================================*/
+.cs-about {
+    padding: 48px 0px 130px;
+    background: linear-gradient(180deg, #9DC183 31.25%, #FFF 100%);
+}
+
+.cs-about-content-1 {}
+
+.cs-about-content-1 .sub-title {
+    margin: 16px 0px;
+    color: #252525;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cs-about-content-1 .info-text {
+    color: #252525;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.cs-btn-box {
+    display: flex;
+    gap: 16px;
+}
+
+.cs-stats-container {
+    display: flex;
+    align-items: stretch;
+    text-align: start;
+    margin-top: 32px;
+}
+
+.cs-stats-container .hr-line {
+    border: 1px solid #228B22;
+    height: 100%;
+    width: 1px;
+    opacity: 1;
+}
+
+.cs-stats-container .single-stats .number {
+    color: #228B22;
+    text-align: center;
+    font-family: "Acetone";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.cs-stats-container .single-stats .text {
+    color: #202020;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cs-stats-container .single-stats {
+    flex: 1;
+    padding: 0px 18px;
+}
+
+.cs-stats-container .single-stats:not(:first-child) {
+    border-left: 1px solid #228B22;
+}
+
+.cs-stats-container .single-stats:first-child {
+    padding-left: 0;
+}
+
+.cs-stats-container .single-stats:last-child {
+    padding-right: 0;
+}
+
+.cs-about-stats-img-box {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+}
+
+.cs-about-stats-img-box .img-1 {
+    border-radius: 16px;
+    max-width: 450px;
+    max-height: 500px;
+    width: 100%;
+}
+
+.cs-about-stats-img-box .overly-img {
+    border-radius: 16px;
+    max-width: 265px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.cs-performance img {
+    width: 100%;
+}
+
+.cs-performance-content p {
+    color: #565353;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.cs-performance-ppc img {
+    width: 100%;
+    border-radius: 16px;
+    max-height: 360px;
+}
+
+.ppc-item-container {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.cs-performance-content h3 {
+    max-width: 600px;
+}
+
+.ppc-item-container .ppc-item {
+    flex: 1;
+    color: #FFF;
+    font-family: "Inter";
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 10px 16px;
+    border-radius: 3px;
+    background: #87CEEB;
+}
+
+/*=========================================================================================
+    About Section CSS End
+ ==========================================================================================*/
+
+
+/*=========================================================================================
+    Cs Cloud Section Start
+ ==========================================================================================*/
+.cs-cloud {
+    background-image: url(../images/cloud-section-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.cs-cloud-area img {
+    width: 100%;
+}
+
+.cs-cloud-content {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 130px 0px;
+}
+
+.cs-cloud-content h2 {
+    max-width: 740px;
+}
+
+/*=========================================================================================
+    Cs Cloud Section End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    Service Section Start
+ ==========================================================================================*/
+.cs-service {
+    background-image: url(../images/Service-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.cs-section-info-box {
+    text-align: center;
+}
+
+.cs-section-info-box .text {
+    color: #565353;
+    font-family: 'Acetone';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -6px;
+}
+
+.cs-section-info-box {
+    margin-bottom: 50px;
+}
+
+.cs-single-service-right {
+    margin: 0 0 0 auto;
+}
+
+.cs-single-service-left,
+.cs-single-service-right {
+    max-width: 950px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.cs-service-item {
+    padding: 32px 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(34, 139, 34, 0.50);
+    background: rgba(135, 206, 235, 0.40);
+    backdrop-filter: blur(12px);
+    display: flex;
+    gap: 40px;
+}
+
+.cs-service-item img {
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+}
+
+.cs-service-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cs-service-details .info-text {
+    color: #202020;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 16px 0px;
+}
+
+.cs-service-details .btnSecond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/*=========================================================================================
+    Service Section End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    Choose Us Section Start
+ ==========================================================================================*/
+.cs-choose-us {
+    background-image: url(../images/choose-us-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.cs-single-choose-us {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cs-single-choose-us img {
+    width: 64px;
+    margin-bottom: 18px;
+}
+
+.cs-single-choose-us .info {
+    color: #202020;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+/* Table */
+.cs-table {
+    width: 100%;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: 1px solid #D6D6D6;
+}
+
+.cs-table tbody {
+    overflow: hidden;
+}
+
+/* Table Header */
+.cs-table th {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 10px 0px;
+}
+
+.cs-table th:nth-child(1) {
+    background-color: #202020;
+    border-radius: 8px 0px 0px 0px;
+}
+
+.cs-table th:nth-child(2) {
+    background-color: #87CEEB;
+}
+
+.cs-table th:nth-child(3) {
+    background-color: #35763D;
+    border-radius: 0px 8px 0px 0px;
+}
+
+/* Alternating row background */
+.cs-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.cs-table tr:nth-child(even) {
+    background-color: #EFF7FE;
+}
+
+.cs-table tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.cs-table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.cs-table td {
+    padding: 30px 24px;
+    border: 1px solid #D6D6D6;
+    color: #000;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Icons */
+.cs-check {
+    color: #00BA00;
+    margin-right: 12px;
+}
+
+.cs-cross {
+    color: #FB1B1B;
+    margin-right: 12px;
+}
+
+/*=========================================================================================
+    Choose Us Section End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    Case Studies CSS Start
+ ==========================================================================================*/
+.case-studies {
+    background-image: url(../images/case-studies-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.case-studies-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 48px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(34, 139, 34, 0.50);
+    background: rgba(135, 206, 235, 0.40);
+    backdrop-filter: blur(12px);
+}
+
+.case-studies-img-box img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.case-studies-info {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.case-studies-info .info {
+    color: #252525;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.case-studies-info .title {
+    color: #252525;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.cs-case-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 16px;
+}
+
+.cs-case-stats .single-row {
+    display: flex;
+    align-items: center;
+
+}
+
+.cs-case-stats .single-stats {
+    flex: 1;
+    padding: 0px 30px;
+}
+
+.cs-case-stats .single-stats:not(:first-child) {
+    border-left: 2px solid #87CEEB;
+}
+
+.cs-case-stats .single-stats:last-child {
+    padding-right: 0;
+}
+
+.cs-case-stats .single-stats:first-child {
+    padding-left: 0;
+}
+
+.cs-case-stats .single-stats .counterup-1 {
+    color: #252525;
+    font-family: 'Acetone';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.cs-case-stats .single-stats .text {
+    color: #252525;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cs-case-stats .hr-line {
+    border-top: 2px solid #228B22;
+    margin: 0px;
+}
+
+/*=========================================================================================
+    Case Studies CSS End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    FAQ Section CSS Start
+ ==========================================================================================*/
+.cs-faq {
+    background: linear-gradient(0deg, #FFF 0%, rgba(157, 193, 131, 0.50) 50%, #FFF 100%);
+}
+
+.faq-left-section {
+    position: relative;
+    height: 100%;
+}
+
+.faq-left-section .cs-section-info-box {
+    position: relative;
+    z-index: 99;
+}
+
+.faq-left-section img {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.accordion .accordion-item {
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 32px;
+    border: none;
+    outline: none;
+    color: var(--colors-text-text-primary-900, #181D27);
+    font-family: 'Acetone';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.accordion button .accordion-title {
+    width: 92%;
+}
+
+.accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translate(0%, -50%);
+    width: 24px;
+    height: 24px;
+    border: 1.5px solid #A4A7AE;
+    border-radius: 50%;
+}
+
+.accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 6px;
+    width: 11px;
+    height: 2px;
+    background: #A4A7AE;
+}
+
+.accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 5.8px;
+    left: 11px;
+    width: 2px;
+    height: 11px;
+    background: #A4A7AE;
+}
+
+.accordion button[aria-expanded=true] {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.accordion button[aria-expanded=true] .icon::after {
+    width: 0;
+}
+
+.accordion button[aria-expanded=true]+.accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+    border-radius: 0px 0px 16px 16px;
+    padding: 0px 32px 32px 32px;
+    color: #535862;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*=========================================================================================
+    FAQ Section CSS End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    Testimonial Section CSS Start
+ ==========================================================================================*/
+.cs-testimonial-slider {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    max-width: 810px;
+}
+
+.cs-testimonial-slide {
+    background: #fff;
+}
+
+.cs-testimonial-slide .quote {
+    color: #202020;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+.cs-testimonial-slide .author {
+    color: #202020;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 6px;
+}
+
+.cs-testimonial-slide .designation {
+    color: #202020;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.cs-testimonial-nav.slick-nav .slick-arrow {
+    background: #228B22;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.3s ease;
+    border: 1px solid #228B22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cs-slider-arrow:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.cs-testimonial-nav .slick-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+.cs-testimonial-nav .slick-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+.cs-testimonial-nav .slick-arrow.slick-disabled {
+    opacity: 0.5;
+    color: #000;
+    border: 1px solid #000;
+    background: transparent;
+}
+
+.cs-stars {
+    color: #202020;
+    margin-bottom: 32px;
+    font-size: 22px;
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+/*=========================================================================================
+    Testimonial Section CSS End
+ ==========================================================================================*/
+
+
+
+/*=========================================================================================
+    Footer Section CSS Start
+ ==========================================================================================*/
+.cs-footer {
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 52px 0px 92px;
+}
+
+.cs-footer-content img {
+    max-width: 252px;
+    margin-bottom: 24px;
+}
+
+.cs-footer-content .info-text {
+    color: #252525;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.cs-footer-content .hr-line {
+    border-top: 1px solid #228B22;
+    margin: 32px 0px;
+    opacity: 1;
+}
+
+.cs-footer-content .social-link-box {
+    margin-bottom: 40px;
+}
+
+.cs-footer-content .social-link-box .title {
+    color: #12152E;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.cs-footer-content .social-link-box .link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #228B22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cs-footer-content .social-link-box .link .icon {
+    color: #fff;
+    font-size: 18px;
+}
+
+.cs-footer-content .menu .name {
+    color: #228B22;
+    font-family: 'Acetone';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.cs-footer-content .menu .menu-item {
+    color: #000;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.cs-footer-content .menu .menu-item:hover {
+    color: #228B22;
+}
+
+/* Footer Form */
+.cs-form-container {
+    background-color: #fff;
+    width: 100%;
+    padding: 70px 40px;
+    border-radius: 24px;
+    border: 1px solid rgba(18, 21, 46, 0.20);
+    background: rgba(255, 255, 255, 0.44);
+    backdrop-filter: blur(12px);
+}
+
+.cs-form-group {
+    margin-bottom: 12px;
+}
+
+.cs-form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--black, #000);
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cs-form-input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    border-radius: 4px;
+    border: 1px solid #BEBEBE;
+    box-shadow: 0px 0px 1.185px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cs-form-input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.cs-form-message {
+    height: 120px;
+    resize: vertical;
+}
+
+.cs-form-submit {
+    font-family: 'Acetone';
+    font-size: 32px;
+    font-weight: 400;
+    width: 100%;
+}
+
+/*=========================================================================================
+    Footer Section CSS End
+ ==========================================================================================*/

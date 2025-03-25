@@ -1,0 +1,119 @@
+@media screen and (min-width: 1920px) {}
+
+@media screen and (max-width: 1367px) {}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1200px) {
+    .cs-about-stats-img-box .overly-img {
+        bottom: 90px;
+    }
+
+    .cs-hero-content-box h1 {
+        font-size: 90px;
+    }
+
+    .cs-hero-content-box p {
+        font-size: 20px;
+    }
+
+    .cs-section-title h3 {
+        font-size: 46px;
+    }
+
+    .cs-section-title h2 {
+        font-size: 55px;
+        line-height: normal;
+    }
+
+    .cs-section-title h1 {
+        font-size: 90px;
+    }
+
+    .cs-case-stats .single-stats .counterup-1 {
+        font-size: 62px;
+    }
+
+    .cs-case-stats .single-stats .text {
+        font-size: 18px;
+    }
+
+    .cs-testimonial-slide .quote {
+        font-size: 26px;
+    }
+
+    .cs-form-submit {
+        font-size: 26px;
+    }
+
+    .cs-cloud-content h2 {
+        max-width: 624px;
+    }
+
+}
+
+@media screen and (max-width: 1025px) {}
+
+@media screen and (max-width: 992px) {
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-pt {
+        padding-top: 60px;
+    }
+
+    .section-pb {
+        padding-bottom: 60px;
+    }
+
+    .header .navbar-nav {
+        padding-top: 24px;
+    }
+
+    .header .navbar-expand-lg .navbar-nav {
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 769px) {}
+
+@media screen and (max-width: 641px) {
+    .header-logo {
+        width: 62px;
+    }
+
+    .header .navbar-expand-lg {
+        padding: 10px 0px;
+    }
+
+    .header.sticky .navbar-expand-lg {
+        padding: 10px 0px;
+    }
+
+    .header .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+
+    .btnPrimary {
+        font-size: 18px;
+    }
+
+    .btnSecond {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 426px) {}
+
+@media screen and (max-width: 376px) {
+    .header {
+        padding: 0px 12px;
+    }
+}
+
+@media screen and (max-width: 361px) {}
