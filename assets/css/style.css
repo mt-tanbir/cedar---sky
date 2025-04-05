@@ -278,11 +278,11 @@ i {
  ==========================================================================================*/
 .header {
     background: transparent;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
     z-index: 999;
     padding: 0px 30px;
 }
@@ -296,17 +296,17 @@ i {
 .header.sticky {
     width: 100%;
     position: fixed;
-    background: #00000090;
+    background: #00000099;
     background-blend-mode: normal, hue, normal, normal;
     z-index: 9999;
 }
 
 .header.sticky .navbar-expand-lg {
-    padding: 24px 0px;
+    padding: 18px 0px;
 }
 
 .header .navbar-expand-lg {
-    padding: 24px 0px;
+    padding: 18px 0px;
     background: transparent;
 }
 
@@ -422,6 +422,8 @@ i {
     Hero CSS End
  ==========================================================================================*/
 
+
+ 
 /*=========================================================================================
     About Section CSS Start
  ==========================================================================================*/
@@ -429,8 +431,6 @@ i {
     padding: 48px 0px 130px;
     background: linear-gradient(180deg, #9DC183 31.25%, #FFF 100%);
 }
-
-.cs-about-content-1 {}
 
 .cs-about-content-1 .sub-title {
     margin: 16px 0px;
@@ -739,7 +739,6 @@ i {
     width: 100%;
     border-radius: 8px;
     border-collapse: collapse;
-    border: 1px solid #D6D6D6;
 }
 
 .cs-table tbody {
@@ -798,6 +797,7 @@ i {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    text-align: center;
 }
 
 /* Icons */
@@ -921,6 +921,7 @@ i {
 .cs-case-stats .hr-line {
     border-top: 2px solid #228B22;
     margin: 0px;
+    opacity: 1;
 }
 
 /*=========================================================================================
@@ -1057,11 +1058,17 @@ i {
 /*=========================================================================================
     Testimonial Section CSS Start
  ==========================================================================================*/
+
+.cs-testimonial-slider .slick-track {
+    display: flex;
+    align-items: center;
+}
+
 .cs-testimonial-slider {
     margin: 0 auto;
     text-align: center;
     position: relative;
-    max-width: 810px;
+    max-width: 890px;
 }
 
 .cs-testimonial-slide {

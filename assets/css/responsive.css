@@ -50,21 +50,29 @@
         max-width: 624px;
     }
 
+    .cs-testimonial-slider {
+        max-width: 790px;
+    }
+
 }
 
-@media screen and (max-width: 1025px) {}
+@media screen and (max-width: 1025px) {
+    .cs-hero-content-box {
+        max-width: 800px;
+    }
+}
 
 @media screen and (max-width: 992px) {
     .section {
-        padding: 60px 0;
+        padding: 70px 0;
     }
 
     .section-pt {
-        padding-top: 60px;
+        padding-top: 70px;
     }
 
     .section-pb {
-        padding-bottom: 60px;
+        padding-bottom: 70px;
     }
 
     .header .navbar-nav {
@@ -74,9 +82,143 @@
     .header .navbar-expand-lg .navbar-nav {
         gap: 24px;
     }
+
+    .cs-section-title h3 {
+        text-align: center;
+    }
+
+    .cs-about-content-1 .sub-title {
+        text-align: center;
+    }
+
+    .cs-about-content-1 .info-text {
+        text-align: center;
+    }
+
+    .cs-btn-box {
+        justify-content: center;
+    }
+
+    .cs-performance-content h3 {
+        max-width: 100%;
+    }
+
+    .cs-performance img {
+        margin-bottom: 16px;
+    }
+
+    .cs-performance-content p {
+        text-align: center;
+    }
+
+    .cs-cloud-content {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 0px;
+    }
+
+    .cs-table td {
+        padding: 12px;
+    }
+
+    .cs-case-stats {
+        margin-top: 32px;
+    }
+
+    .cs-case-stats .single-stats {
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    .cs-testimonial-slider {
+        max-width: 500px;
+    }
+
+    .cs-form-container {
+        padding: 24px 16px;
+    }
+
+    .cs-footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cs-footer-content .hr-line {
+        margin: 24px 0px;
+        width: 100%;
+    }
+
+    .cs-footer-content .social-link-box .title {
+        margin-bottom: 16px;
+    }
+
+    .cs-footer-content .social-link-box {
+        margin-bottom: 24px;
+    }
+
+    .cs-footer-content .menu .name {
+        margin-bottom: 16px;
+    }
+
+    .cs-footer-content .menu .menu-item {
+        margin-bottom: 12px;
+    }
+
+    .cs-footer {
+        padding: 52px 0px 60px;
+    }
+
+    .cs-about {
+        padding: 48px 0px 60px;
+    }
+
+    .header-logo {
+        width: 100px;
+    }
 }
 
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+    .cs-hero-content-box h1 {
+        font-size: 60px;
+    }
+
+    .cs-hero-content-box {
+        max-width: 600px;
+    }
+
+    .cs-about-stats-img-box .overly-img {
+        bottom: 0px;
+    }
+
+    .cs-hero-bg {
+        width: 100%;
+        height: 600px;
+    }
+
+    .cs-service-item {
+        padding: 24px 16px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .cs-check {
+        display: flex;
+        margin: 0 auto 8px;
+        font-size: 16px;
+    }
+
+    .cs-cross {
+        display: flex;
+        margin: 0 auto 8px;
+        font-size: 16px;
+    }
+
+}
 
 @media screen and (max-width: 641px) {
     .header-logo {
@@ -84,11 +226,11 @@
     }
 
     .header .navbar-expand-lg {
-        padding: 10px 0px;
+        padding: 16px 0px;
     }
 
     .header.sticky .navbar-expand-lg {
-        padding: 10px 0px;
+        padding: 16px 0px;
     }
 
     .header .navbar-expand-lg .navbar-nav .nav-link {
@@ -102,18 +244,247 @@
     .btnSecond {
         font-size: 18px;
     }
+
+    .accordion-area {
+        position: relative;
+        z-index: 9;
+    }
+
+    .cs-testimonial-slider {
+        max-width: 430px;
+    }
+
+
 }
 
 @media screen and (max-width: 576px) {}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
 
-@media screen and (max-width: 426px) {}
+    .cs-hero-content-box h1 {
+        font-size: 48px;
+    }
+
+    .cs-hero-content-box p {
+        font-size: 18px;
+    }
+
+    .cs-about-stats-img-box .img-1 {
+        max-width: 288px;
+    }
+
+    .cs-about-stats-img-box .overly-img {
+        max-width: 172px;
+        left: 60px;
+    }
+
+    .cs-section-title h3 {
+        font-size: 32px;
+    }
+
+    .cs-stats-container .single-stats .number {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .cs-stats-container .single-stats {
+        flex: 1;
+        padding: 0px 8px;
+    }
+
+    .cs-section-title h2 {
+        font-size: 32px;
+    }
+
+    .cs-section-title h1 {
+        font-size: 32px;
+    }
+
+    .cs-section-info-box .text {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .cs-section-info-box {
+        margin-bottom: 24px;
+    }
+
+    .cs-single-service-left,
+    .cs-single-service-right {
+        margin-bottom: 24px;
+    }
+
+    .cs-section-title h6 {
+        font-size: 20px;
+    }
+
+    .cs-single-choose-us .info {
+        font-size: 16px;
+    }
+
+    .cs-table th {
+        font-size: 18px;
+    }
+
+    .cs-table td {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .case-studies-info .info {
+        font-size: 18px;
+    }
+
+    .case-studies-info .title {
+        font-size: 18px;
+    }
+
+    .cs-case-stats .single-stats .counterup-1 {
+        font-size: 48px;
+    }
+
+    .cs-case-stats .single-stats .text {
+        font-size: 16px;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-pt {
+        padding-top: 60px;
+    }
+
+    .section-pb {
+        padding-bottom: 60px;
+    }
+
+    .accordion button {
+        padding: 16px 50px 16px 16px;
+        font-size: 20px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .accordion .accordion-content p {
+        padding: 0px 16px 16px 16px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .cs-testimonial-slide .quote {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .cs-testimonial-slider {
+        max-width: 330px;
+    }
+
+    .cs-hero-content-box {
+        max-width: 345px;
+    }
+
+    .ppc-item-container .ppc-item {
+        font-size: 12px;
+        padding: 10px 8px;
+        flex: auto;
+    }
+
+    .cs-service-item img {
+        max-width: 225px;
+        max-height: 100%;
+        width: 100%;
+    }
+
+    .cs-testimonial-nav.slick-nav .slick-arrow {
+        width: 33px;
+        height: 33px;
+        font-size: 12px;
+    }
+
+    .cs-testimonial-slider {
+        max-width: 290px;
+    }
+
+    .cs-form-label {
+        font-size: 16px;
+    }
+
+    .cs-section-title h4 {
+        font-size: 28px;
+    }
+
+    .cs-service-details .info-text {
+        font-size: 16px;
+    }
+
+    .cs-testimonial-slide .author {
+        font-size: 18px;
+        line-height: 100%;
+    }
+
+    .cs-testimonial-slide .designation {
+        font-size: 16px;
+    }
+
+    .cs-table {
+        overflow-x: auto;
+    }
+
+    .cs-table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .cs-about-stats-img-box .overly-img {
+        left: 0px;
+    }
+
+    .cs-stats-container .single-stats {
+        flex: 0 0 50%;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .cs-stats-container {
+        flex-wrap: wrap;
+    }
+
+    .cs-stats-container .single-stats:not(:first-child) {
+        border-left: none;
+    }
+}
 
 @media screen and (max-width: 376px) {
     .header {
         padding: 0px 12px;
     }
+
+    .btnPrimary {
+        font-size: 14px;
+    }
+
+    .btnSecond {
+        font-size: 14px;
+    }
+
+    .ppc-item-container {
+        flex-wrap: wrap;
+    }
+
+    .cs-testimonial-slider {
+        max-width: 260px;
+    }
 }
 
-@media screen and (max-width: 361px) {}
+@media screen and (max-width: 361px) {
+    .cs-testimonial-slider {
+        max-width: 240px;
+    }
+}
