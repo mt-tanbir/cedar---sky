@@ -373,6 +373,12 @@ i {
     max-height: 1100px;
 }
 
+.cs-hero-tree{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
 .cs-hero-content-box {
     display: flex;
     flex-direction: column;
